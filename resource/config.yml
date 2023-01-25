@@ -1,0 +1,54 @@
+active:
+- lava_bucket
+- ice
+- sapling
+items:
+  water:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: BEACON
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Lobby"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Lobby"}],"text":""}'
+      - '{"extra":[{"text":" "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"KokiCraft''s
+        Lobby"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Just
+        play with other player in the lobby."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"It
+        will be very fun. Yaaaaa, I hope so."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"There
+        will be some amazing lobby update."}],"text":""}'
+      - '{"extra":[{"text":" "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"->
+        Click servers to join the lobby."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"->
+        ;PlayersAmount; players are in the lobby."}],"text":""}'
+      blockMaterial: BEACON
+  water_bucket:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: WATER_BUCKET
+  lava_bucket:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: LAVA_BUCKET
+  ice:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: ICE
+  sapling:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_SAPLING
+  map:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: FILLED_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: MAP
+      map-id: 0

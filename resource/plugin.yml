@@ -1,0 +1,13 @@
+name: JoinItem
+main: com.kokicraft.JoinItem.Main
+version: 0.0.1
+api-version: 1.19
+description: JoinItem.
+author: Koke_Cacao
+commands:
+  joinitem:
+    description: joinitem command
+    aliases: [ji]
+    permission: joinitem.command
+    permission-message: Unknown command, Type "/help" for help.
+    usage: /joinitem add|remove|list <item_name>
